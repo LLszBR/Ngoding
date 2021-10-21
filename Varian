@@ -1,0 +1,6 @@
+class Invariant<T> (val data : T)
+
+fun main() {
+    val data1 : Invariant<String> = Invariant("badhai")
+    val data2 : Invariant<Any>
+}
